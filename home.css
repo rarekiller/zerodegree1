@@ -1,0 +1,158 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1 a 
+{
+    text-decoration: none;
+    color: chocolate;
+}
+.d1 a:hover
+{
+    scale: 1.2;
+    color: red;
+}
+.d1 .a1
+{
+    float: right;
+    padding-right: 20px;
+}
+.d1 .a1:hover
+{
+    background-color: gold;
+    border-radius: 10%;
+}
+.banner
+{
+    height: 600px;
+     
+}
+.banner img
+{
+    height: 100%;
+    width:100%;
+}
+.content ul
+{
+  list-style-type: square;
+  padding-left: 50px;  
+}
+.content
+{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+}
+.container img
+{
+   width: 45%;
+   height: 650px;
+}
+.container
+{
+    text-align: center;
+}
+.imp .head1
+{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.imp .head2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imp
+{
+    background-color: rgb(63, 185, 233);
+    width: 100%;
+    text-align: center;
+    height: 600px;
+   
+}
+.imp img
+{
+    height: 100px;
+    width: 400px;
+}
+.head2 .item
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 250px;
+    border-style:groove ;
+    border-color: darkblue;
+}
+.item .icon 
+{
+    border-radius: 50%;
+    background-color: rgb(63, 185, 233);
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: 25%;
+    position: relative;
+    top: -3rem;
+}
+.icon 
+{
+    color: white;
+}
+.item.con 
+{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+}
+.item .icon:hover
+{
+    transition: ease-in-out;
+    height: 70px;    
+}
+.con p
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(63, 185, 233);
+    border-radius: 20%;
+}
+
+@media screen and (max-width: 720px)
+{
+    .container img
+    {
+       width: 80%;
+       height: 300px;
+       padding: 10px;     
+    }
+
+    .imp .head2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imp
+{
+    background-color: rgb(63, 185, 233);
+    width: 100%;
+    text-align: center;
+   height: 2000px;  
+}
+
+}

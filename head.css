@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(20, 126, 247) 100%);
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header b {
+  font-size: 20px;
+  font-family: "Times New Roman";
+  text-transform: capitalize;
+  position: relative;
+  top: -1rem;
+}
+
+header button {
+  width: 10%;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+header .nav1 {
+  text-align: center;
+  position: relative;
+  top: -2rem;
+}
+
+.marq h1 {
+  text-transform: uppercase;
+  clear: both;
+  text-shadow: 3px 2px lightblue;
+}
+
+header img {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+header button:hover {
+  transform: scale(1.3);
+  cursor: grab;
+  background-image: linear-gradient(90deg, rgb(42, 123, 155) 0%, rgb(255, 255, 255) 50%, rgb(42, 123, 155) 100%);
+  border-radius: 5px;
+  color: black;
+}
+
+footer {
+  background-color: rgb(63, 185, 233);
+  font-family: "Times New Roman";
+  padding-left: 30px;
+}
+
+.footdiv {
+  position: relative;
+  margin-left: 50%;
+  top: -15em;
+}
+
+footer h2, footer h3 {
+  text-align: center;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  margin-left: 50%;
+  top: -4rem;
+}
+
+footer a:hover {
+  color: red;
+  background-color: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(20, 126, 247) 100%);
+  cursor: pointer;
+}
+
+.d1 {
+  background-color: black;
+}
+
+@media screen and (max-width: 720px) {
+  header .nav1 {
+    text-align: center;
+  }
+  footer iframe {
+    width: 100%;
+    padding: 20px;
+  }
+  .footdiv {
+    position: relative;
+    top: 5em;
+    margin-left: 30%;
+  }
+  footer {
+    height: 600px;
+  }
+  header button {
+    width: 15%;
+  }
+  header .nav1 {
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: -4em;
+  }
+}
+
+/*# sourceMappingURL=head.css.map */

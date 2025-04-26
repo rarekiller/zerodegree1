@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, rgb(96, 168, 236),#5eead4, #ffffff);
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    max-width: 350px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form h2,h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="password"],
+  .contact-form input[type="number"],
+  .contact-form textarea {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  
+  
+  .reset-btn {
+    align-self: start;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .contact-form button {
+    background-color: #0ea5e9;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0284c7;
+  }
+  
+  .back-link {
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    color: #0ea5e9;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  .container a button
+  {
+    border: none;
+    background-image: inherit;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+  }
+  .container a button:hover
+  {
+    cursor: pointer;
+    background-image:linear-gradient(to right, rgb(96, 168, 236),#5eead4, #ffffff) ;
+    transform: translate(  2px,2px );
+  }

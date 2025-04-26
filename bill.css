@@ -1,0 +1,64 @@
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.bi
+{
+    text-align: center;
+    text-transform: uppercase;
+    animation: fadeIn 2s ease-in-out infinite;
+}
+@keyframes fadeIn
+{
+    from { opacity: 0.5; transform: translateY(-5px);}
+    to { opacity: 1; transform: translateY(0);}    
+}
+.num
+{
+ background-color: rgb(63, 185, 233);
+ height: 50px;   
+}
+.num label,input
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-top: 10px;
+    border: none;
+}
+tr
+{
+    height: 50px;
+}
+td input,select
+{
+    height: auto;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.but button
+{
+    width: 15%;
+    background-color: inherit;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    height: 20px;
+}
+.but
+{
+    text-align: center;
+    height: 50px;
+    background-image: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(20, 126, 247, 1) 100%);;
+}
+
+.but button:hover
+{
+     cursor: pointer;
+     border-radius: 5px;
+     background-color: rgb(63, 185, 233);
+     color:rgb(255, 255, 255);
+}
